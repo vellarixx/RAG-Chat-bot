@@ -4,8 +4,8 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters import CommandStart
 
 # Вставьте ваши токены
-TG_TOKEN = "8339710252:AAHbEKLox4bgsXtB19qvX46eC-pfoQ1TFQc"
-DIFY_API_KEY = "app-tofdtfMcQR9p2ms93pxuNdqZ"
+TG_TOKEN = "Вставьте свой токен"
+DIFY_API_KEY = "вставьте апи ключ дифи"
 DIFY_URL = "http://localhost/v1/chat-messages"  # Если Dify на другом порту, укажите его (например, :5001)
 
 bot = Bot(token=TG_TOKEN)
